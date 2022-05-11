@@ -18,7 +18,7 @@ var s1AlertMessage = {
     },
   },
   data: {
-    route: "/s1", //would be '/s2', '/s3'
+    route: "/s1", //could be '/s2', '/s3'
   },
 };
 
