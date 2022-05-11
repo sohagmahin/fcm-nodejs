@@ -25,8 +25,8 @@ var s1AlertMessage = {
 var normalAlertMessage = {
   to: DEVICE_TOKEN,
   notification: {
-    title: "S1 Message",
-    body: "S1 Message from NodeJS server",
+    title: "Normal message",
+    body: "Normal message from NodeJS server",
   },
   android: {
     notification: {
@@ -51,7 +51,7 @@ const sendNotification = (message) => {
 };
 
 //trigger normal notification
-sendNotification(normalAlertMessage);
+// sendNotification(normalAlertMessage);
 
 // trigger S1
-// sendNotification(s1AlertMessage);
+sendNotification(s1AlertMessage);
