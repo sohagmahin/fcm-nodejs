@@ -1,14 +1,15 @@
 {
-  "name": "nodejs-app",
+  "name": "fcm-test",
   "version": "1.0.0",
-  "main": "fcm.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "clear",
+  "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "fcm-node": "^1.6.1"
+    "firebase-admin": "^10.3.0"
   }
 }
