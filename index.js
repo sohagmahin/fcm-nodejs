@@ -20,6 +20,15 @@ const sendPushNotification = async () => {
       body: "A new weather warning has been issued for your location.",
       imageUrl: "https://my-cdn.com/extreme-weather.png",
     },
+    data: {
+      route: "/voicecall",
+    },
+    android: {
+      notification: {
+        channelId: "alert",
+      },
+      priority: "high",
+    },
   });
 };
 
